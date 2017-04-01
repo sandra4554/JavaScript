@@ -43,16 +43,16 @@ if (wzrostOlgi > wzrostMateusza) {
 var kolor = 'zielony';
 
 switch (kolor) {
-	case 'czerwony'
+	case 'czerwony':
 		console.log('Kolor czerwony')
 		break;
-	case 'zielony'
+	case 'zielony':
 		console.log('Kolor zielony')
 		break;
-	case 'niebieski'
+	case 'niebieski':
 		console.log('Kolor niebieski')
 		break;
-	default
+	default:
 		console.log('Inny kolor')
 }
 
