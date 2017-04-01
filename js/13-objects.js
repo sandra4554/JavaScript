@@ -42,3 +42,19 @@ krystian.wyswietlInfo();
 
 var kaja = new Osoba('Kaja', 'Stefaniak');
 kaja.wyswietlInfo();
+
+var osoba = {
+	imie: "Marcin",
+	wzrost: 180,
+	wyswietlDetale: function() {
+		console.log( this.imie + " " + this.wzrost);
+	}
+}
+
+osoba["imie"] = "Kasia";
+osoba.wzrost = 170;
+osoba.oczy = "niebieskie";
+osoba.wyswietlDetale = function () {
+		console.log(this.imie + " " + this.wzrost + " " + this.oczy);
+}
+osoba.wyswietlDetale();
